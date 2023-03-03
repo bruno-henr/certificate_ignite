@@ -1,0 +1,5 @@
+painel da aws -> dynamo db
+
+
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+serverless dynamodb start
